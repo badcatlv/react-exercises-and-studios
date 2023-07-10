@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  border: 5mm solid black;
+  border: 5mm solid rgb(231, 48, 185);
   padding: 5%;
 }
 
@@ -44,5 +44,9 @@
   display: flex;
   justify-content: space-between;
   background-color: pink;
+  padding: 2%;
+}
+
+body {
   padding: 2%;
 }
