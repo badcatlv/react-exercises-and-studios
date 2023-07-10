@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  border: 5mm solid black;
+  padding: 5%;
 }
 
 .App-logo {
@@ -32,12 +34,15 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
 
 .similarComponents {
-  display:flex;
-justify-content:space-between;
+  display: flex;
+  justify-content: space-between;
+  background-color: pink;
+  padding: 2%;
 }
