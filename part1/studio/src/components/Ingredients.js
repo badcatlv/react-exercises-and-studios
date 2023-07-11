@@ -1,7 +1,7 @@
 import styles from "./Ingredients.module.css";
 
 export default function RecipeIngredients() {
-    const ingredients = ["An", "array", "of the", "top five", "ingredients"];
+    const ingredients = ["2 large cucumbers, peeled and thinly sliced", "1 sweet onion, thinly sliced", "1 ½ cups mayonnaise, or more to taste", "2 tablespoons vinegar", "1 teaspoon dried dill weed"];
     return(
         <div>
             <h3>Recipe ingredients</h3>
