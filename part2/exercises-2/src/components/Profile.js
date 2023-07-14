@@ -21,7 +21,7 @@ function Profile() {
             <li>{ocean.fact3}</li>
          </ul>
          <div>
-            <Button/>
+            <Button />
          </div>
       </div>)
    return (
