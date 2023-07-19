@@ -4,7 +4,8 @@ import Button from "./components/Button";
 import AuthorInfo from "./components/AuthorInfo";
 import IngredientList from "./components/Ingredients";
 import RecipeImage from "./components/RecipeImage";
-import RecipeName from "./components/RecipeName";
+//import SaveButton from "./components/SaveButton";
+//import RecipeName from "./components/RecipeName";
 
 export default function App() {
 
@@ -12,7 +13,7 @@ export default function App() {
     <>
       <h1>Hello</h1>
       <RecipeImage />
-      <RecipeName />
+      {/* <RecipeName /> */}
       <RateARecipe rating={3} />
       <Button saveButton={true} />
       <AuthorInfo />
@@ -20,3 +21,4 @@ export default function App() {
     </>
   );
 }
+ 

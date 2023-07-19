@@ -8,4 +8,4 @@ function AuthorInfo() {
  //import json file for author info
  //image, name, website
  //css for styling image
- 
+  
