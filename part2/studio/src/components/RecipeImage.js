@@ -1,4 +1,5 @@
 import recipedata from "./recipe.json";
+import "./styling.css"
 
 function RecipeImage() {
   const recipeImage = recipedata.map((data) => (
