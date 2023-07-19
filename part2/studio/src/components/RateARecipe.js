@@ -1,3 +1,5 @@
+import recipedata from "./recipe.json";
+
 let stars = ["⭐", "⭐ ⭐", "⭐ ⭐ ⭐", "⭐ ⭐ ⭐ ⭐", "⭐ ⭐ ⭐ ⭐ ⭐"];
 
 export default function RateARecipe(props) {
@@ -7,7 +9,7 @@ return <h3>{stars[props.rating -1]}</h3>
   return props.rating < 6 && props.rating > 0 ? <GiveRating/> : null
 }
 
-//export default RateARecipe;
+//export default RateARecipe;   
 
 //conditional to render stars based on a number provided in App.js 
  

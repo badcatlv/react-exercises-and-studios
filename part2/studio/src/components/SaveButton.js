@@ -1,4 +1,6 @@
 import "./styling.css";
+import recipedata from "./recipe.json";
+
 
 function SaveButton() {
   function handleClick() {
@@ -9,7 +11,7 @@ function SaveButton() {
       Save
     </button>
   );
-}
+}  
 
 export default SaveButton;
  

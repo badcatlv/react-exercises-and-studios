@@ -1,9 +1,18 @@
+import recipedata from "./recipe.json";
+
 function RecipeImage() {
-   return;
- }
- 
- export default RecipeImage;
- 
+  const recipeImage = recipedata.map((data) => (
+    <div key={data.recipeImage}>
+      <img src={data.recipeImage} alt={data.name} className="recipeImage" />
+    </div>
+  ))
+  return (
+    <div>
+      {recipeImage}
+    </div>);
+}
+
+export default RecipeImage;
+
  //import json file for the data
  //apply css for className recipeImage
-  
