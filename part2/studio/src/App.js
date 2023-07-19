@@ -11,7 +11,7 @@ import RecipeName from "./components/RecipeName";
 export default function App() {
 
   return ( 
-    <>
+    <div className = "app">
       <RecipeImage />
       <RecipeName />
       <RateARecipe rating={5} />
@@ -20,7 +20,7 @@ export default function App() {
       <IngredientList />
       {/* <SaveButton /> */}
       {/* <ClickedButton /> */}
-    </>
+    </div>
   );
 }
  

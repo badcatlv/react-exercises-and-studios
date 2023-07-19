@@ -31,6 +31,18 @@
  
  .recipeImage {
    width: 20%;
-   display: block;
+   display: inline-block;
    margin: 10px;
+ }
+
+ .app {
+  display: inline-block;
+  text-align: center;
+  padding: 20px;
+  margin: auto;
+ }
+
+ .list{
+  list-style-type: none;
+  text-align: center;
  }

@@ -1,4 +1,5 @@
 import recipedata from "./recipe.json";
+import "./styling.css"
 
 function IngredientList() {
    return(
@@ -8,7 +9,7 @@ function IngredientList() {
         return(
           <div key = {data.name}>
             {data.ingredients.map((ingredients, index) =>{
-              return <li key={index}>{ingredients}</li>
+              return <li key={index} className="list">{ingredients}</li>
             })}
           </div>
         )
