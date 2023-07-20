@@ -9,7 +9,7 @@ export default function BoardAssignment () {
       const [boardName, setBoardName] = useState('no boards yet!')
 
    const handleChange = (event) => {
-      boardName
+      setBoardName(event.target.value)
    }
 
    return (

@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  padding: 20px;
 }
 
 .App-logo {
@@ -43,5 +44,14 @@
 }
 
 .imageUpdates {
-  object-fit: contain;
+  width: 400px;
+  border-radius: 8px;
+  padding: 5px;
+  border: 2px solid #ddd;
+
 }
+
+li {
+  list-style: none;
+}
+
