@@ -20,7 +20,7 @@ export default function StatusChange () {
          <form onSubmit={handleSubmit}>
             <label>Have you tried this recipe? Add your notes here: <input type="text" value={notes} onChange={handleChange} />
             </label>
-            <input type="submit" />
+            <input type="submit" style={{backgroundColor: "lightpink"}}/>
          </form>
 
          <p>My Recipe Notes: {notes}</p>

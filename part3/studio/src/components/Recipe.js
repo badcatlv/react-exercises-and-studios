@@ -5,10 +5,10 @@ const RecipeAuthor = () => {
 
    return (
       <div>
-         <img src={authorPhoto} alt = {authorName} style={{borderRadius: "50%", border: "1px solid #ddd", padding: "5px", width:"150px"}} />
+         <img src={authorPhoto} alt={authorName} style={{ borderRadius: "50%", border: "3px solid #ddd", padding: "5px", width: "150px" }} />
          <div>
             <h3>{authorName}</h3>
-            <a href={authorLink}>The Clever Carrot</a> 
+            <a href={authorLink}>The Clever Carrot</a>
          </div>
       </div>
    );
@@ -16,7 +16,7 @@ const RecipeAuthor = () => {
 
 const RecipeIngredients = () => {
    const ingredients = ["250g water", "150g bubbly, sourdough starter", "25g olive oil", "500g bread flour", "10g fine sea salt"];
-   return(
+   return (
       <div className="list">
          <h3>Recipe Ingredients</h3>
          <ul>
@@ -32,12 +32,12 @@ const RecipeIngredients = () => {
 
 const RecipeDescription = () => {
    return (
-      <div> 
+      <div>
          <div>
             <h1>Sourdough Bread: A Beginner’s Guide</h1>
-            <p>Think you can’t bake artisan sourdough bread at home? <br/>
-               Think again! Sourdough Bread: a Beginner’s guide is your go-to recipe resource for simple, <br/>
-               easy sourdough bread without kneading. Make the dough in the morning or at night- <br/>
+            <p>Think you can’t bake artisan sourdough bread at home? <br />
+               Think again! Sourdough Bread: a Beginner’s guide is your go-to recipe resource for simple, <br />
+               easy sourdough bread without kneading. Make the dough in the morning or at night- <br />
                it will come together in under 10 minutes.</p>
          </div>
          <div className="recipePhotoBlock">
@@ -50,12 +50,12 @@ const RecipeDescription = () => {
 
 const RecipePhoto = () => {
    return (
-      <img src="https://www.theclevercarrot.com/wp-content/uploads/2013/12/sourdough-bread-round-1-of-1.jpg" alt="Sourdough Bread" className="imageUpdates"/>
+      <img src="https://www.theclevercarrot.com/wp-content/uploads/2013/12/sourdough-bread-round-1-of-1.jpg" alt="Sourdough Bread" className="imageUpdates" />
    );
 }
 
-export default function RecipeDisplay () {
-   return(
+export default function RecipeDisplay() {
+   return (
       <div className="recipePhotoBlock">
          <RecipePhoto />
          <div>

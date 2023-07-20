@@ -1,6 +1,7 @@
 .App {
   text-align: center;
   padding: 20px;
+  background-color: rgb(229, 178, 185);
 }
 
 .App-logo {
@@ -45,9 +46,9 @@
 
 .imageUpdates {
   width: 400px;
-  border-radius: 8px;
+  border-radius: 20px;
   padding: 5px;
-  border: 2px solid #ddd;
+  border: 5px solid #e9d7da;
 
 }
 

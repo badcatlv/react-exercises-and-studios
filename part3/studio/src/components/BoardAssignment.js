@@ -15,7 +15,7 @@ export default function BoardAssignment () {
    return (
       <div style={{paddingTop: "50px"}}>
       <label>Save to Board: </label>
-      <select value={boardName} onChange={handleChange}>
+      <select value={boardName} onChange={handleChange} style={{backgroundColor: "lightpink"}}>
          {boards.map((board)=> (
             <option value={board.value}>{board.label}</option>))}
       </select>
