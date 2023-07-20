@@ -1,5 +1,5 @@
 import recipedata from "./recipe.json";
-import "./styling.css"
+import "./styling.css "
 
 function IngredientList() {
    return(
