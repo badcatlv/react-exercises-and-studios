@@ -20,6 +20,7 @@
    font-size: 20px;
    padding: 10px;
    margin: 10px;
+   align-self: center;
  }
  
  .authorImage {
@@ -33,13 +34,6 @@
    width: 20%;
    display: inline-block;
    margin: 10px;
- }
-
- .app {
-  display: inline-block;
-  text-align: center;
-  padding: 20px;
-  margin: auto;
  }
 
  .list{

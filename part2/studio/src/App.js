@@ -11,11 +11,11 @@ import RecipeName from "./components/RecipeName";
 export default function App() {
 
   return ( 
-    <div className = "app">
+    <div className = "App">
       <RecipeImage />
       <RecipeName />
       <RateARecipe rating={5} />
-      <Button saveButton={false} />
+      <Button saveButton={true} />
       <AuthorInfo />
       <IngredientList />
       {/* <SaveButton /> */}
